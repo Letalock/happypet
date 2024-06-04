@@ -1,0 +1,133 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://img.freepik.com/vetores-premium/padrao-perfeito-de-veterinario-de-pata-de-gato-adequado-para-sites-de-lojas-e-fundos-de-aplicativos_387335-969.jpg'); 
+    background-size: cover; /* Redimensiona a imagem para cobrir toda a tela */
+    background-repeat: repeat /* Impede que a imagem se repita */
+    background-position center center; /* Centraliza a imagem */
+    background-attachment: fixed; /* Mantém a imagem fixa ao rolar a página */
+    font-family: Arial, sans-serif; /* Fonte padrão para todo o site */
+}
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    border-radius: 10px;
+    height: 100%;
+    min-height: 100vh;
+}
+
+.main {
+    display: flex;
+    flex-flow: column;
+    width: 85%;
+    border-radius: 10%;
+    flex-grow: 1
+}
+.menu {
+    width: 15%;
+    background-color: #cab67a6b;
+    border-radius: 12px;
+    padding: 20px;
+    align-items: center;
+    list-style: none;
+    padding: 80px 0;
+}
+
+.menu li {
+    margin-bottom: 50px; /* Espaçamento entre os itens do menu */
+}
+
+.menu li a {
+    color: #331515; /* Cor do texto dos links */
+    text-decoration: none;
+    font-size: 20px; /* Tamanho da fonte dos links */
+    font-weight: bold; /* Peso da fonte dos links */
+    transition: color 0.3s; /* Transição suave da cor do texto */
+}
+
+.menu li a:hover {
+    color: #ebc817; /* Cor do texto ao passar o mouse */
+}
+
+
+.header {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo semi-transparente */
+    min-height: 150px;
+    flex-grow: 1;
+
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco com 80% de opacidade */
+    flex-grow: 1;
+    padding: 50px;
+    flex-grow: 1; /* Ocupa todo o espaço vertical disponível */
+    text-align: center;
+}
+
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+}
+
+.footer-container {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.footer p {
+    margin: 0;
+}
+
+ .header img {
+    width: 100%; /* Redimensiona a imagem para caber na largura do elemento */
+    height: auto; /* Preserva a proporção da imagem */
+    border-radius: 15px; /* Arredonda apenas os cantos */
+    object-fit: cover; /* Ajusta a imagem para cobrir o contêiner */
+    
+  }
+
+
+  .contact-info {
+    margin: 20px 0;
+    background-color: #d7d1b36c;
+    border-radius: 10px;
+}
+.contact-info p {
+    font-size: 18px;
+    margin: 5px 0;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.contact-form input, .contact-form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+.contact-form button {
+    padding: 10px 20px;
+    margin: 10px 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: #333;
+    cursor: pointer;
+}
+
